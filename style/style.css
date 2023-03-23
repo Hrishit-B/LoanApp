@@ -1,0 +1,31 @@
+.indexBTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: #FFCE32;
+    font-weight: 500;
+}
+
+.indexBTN2{
+    border-radius: 19px;
+    background-color: #1D63FF;
+    border: 2px solid #1D63FF;
+    color: white;
+    font-weight: 500;
+}
+
+.indexBTN1:hover{
+    background-color: #1D63FF;
+    color: white;
+}
+
+.indexBTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: #FFCE32;
+}
+
+.topmost{
+    background: #FFCE32;
+}
