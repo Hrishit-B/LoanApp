@@ -29,3 +29,104 @@
 .topmost{
     background: #FFCE32;
 }
+
+.midbox{
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 5%;
+}
+
+#mid-link{
+    text-decoration: none;
+    color: white;
+}
+
+#mid-list{
+    font-size: larger;
+    padding-top: 35px;
+    padding-left: 55px;
+    background: #1D63FF;
+    list-style: none;
+    height: 150px;
+    width: 150px;
+    border: 1px, solid, #1D63FF;
+    border-radius: 70%;
+}
+
+#intro-img{
+    border-radius: 100px;
+    height: 375px;
+    margin-left: 5%;
+}
+
+.mid{
+    padding: 80px;
+}
+
+.box1{
+    width: 35%;
+    background: #1D63FF;
+    color: white;
+}
+
+.two-a{
+    background: #D8E7F1;
+    height: 50%;
+    width: 500px;
+}
+
+.three-a{
+    height: 50%;
+    width: 550px;
+    background: #EFE3E3;
+}
+
+.three-b{
+    background: #EFF9FA;
+    height: 50%;
+}
+
+#clock{
+    position: relative;
+
+}
+
+#secure{
+    position: relative;
+}
+
+.clock-text{
+    padding-top: 115px;
+    padding-left: 55px;
+}
+
+.secure-text{
+    padding-top: 115px;
+    padding-left: 55px;
+}
+
+.clock-img{
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.secure-img{
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.img-container{
+    background: url(../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 810px;
+}
+
+input[type=text]{
+    background: #FBF5F5;
+}
+
+input[type=password]{
+    background: #FBF5F5;
+}
