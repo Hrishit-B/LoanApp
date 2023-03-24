@@ -26,6 +26,64 @@
     background-color: #FFCE32;
 }
 
+.comBTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: #FFCE32;
+    font-weight: 500;
+}
+
+.comBTN2{
+    border-radius: 19px;
+    background-color: #FFCE32;
+    border: 2px solid #FFCE32;
+    color: #1D63FF;
+    font-weight: 500;
+}
+
+.comBTN1:hover{
+    background-color: #1D63FF;
+    color: #FFCE32;
+    border: 2px solid #FFCE32;
+}
+
+.comBTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #FFCE32;
+    color: #FFCE32;
+    background-color: #1D63FF;
+}
+
+.BTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: white;
+    font-weight: 500;
+}
+
+.BTN2{
+    border-radius: 19px;
+    background-color: #1D63FF;
+    border: 2px solid #1D63FF;
+    color: white;
+    font-weight: 500;
+}
+
+.BTN1:hover{
+    background-color: #1D63FF;
+    color: white;
+}
+
+.BTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: white;
+}
+
+
 .topmost{
     background: #FFCE32;
 }
