@@ -188,3 +188,13 @@ input[type=text]{
 input[type=password]{
     background: #FBF5F5;
 }
+
+.social{
+    position: relative;
+    top: 65px;
+}
+
+.dev-head{
+    width: 50%;
+    margin-left: 22.5%;
+}
