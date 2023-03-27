@@ -8,9 +8,9 @@
 
 .indexBTN2{
     border-radius: 19px;
-    background-color: #1D63FF;
+    background-color: #FFCE32;
     border: 2px solid #1D63FF;
-    color: white;
+    color: #1D63FF;
     font-weight: 500;
 }
 
@@ -22,8 +22,8 @@
 .indexBTN2:hover{
     border-radius: 19px;
     border: 2px solid #1D63FF;
-    color: #1D63FF;
-    background-color: #FFCE32;
+    color: white;
+    background-color: #1D63FF;
 }
 
 .comBTN1{
