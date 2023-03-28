@@ -198,3 +198,36 @@ input[type=password]{
     width: 50%;
     margin-left: 22.5%;
 }
+
+.sort{
+    margin-left: 50%;
+}
+
+.sort-btn{
+    color: #1D63FF;
+    border: #1D63FF solid 2px;
+    background: #FFCE32;
+}
+
+.sort-btn:hover{
+    color: #1D63FF;
+    border: #1D63FF solid 2px;
+    background: #FFCE32;
+}
+
+.res{
+    background: #F3EFEF;
+}
+
+.res-apply{
+    color: #1D63FF;
+    border: #1D63FF solid 2px;
+    border-radius: 20px;
+    background: #FFCE32;
+}
+
+.res-apply:hover{
+    color: #FFCE32;
+    border: #FFCE32 solid 2px;
+    background: #1D63FF;
+}
