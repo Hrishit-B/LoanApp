@@ -198,3 +198,70 @@ input[type=password]{
     width: 50%;
     margin-left: 22.5%;
 }
+
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.f1, .f2, .f3 {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+#info1[style*="display: block"], #info2[style*="display: block"], #info3[style*="display: block"], #info4[style*="display: block"], #info5[style*="display: block"] {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the elements */
+  .dev-head h6,
+  .dev-head h2,
+  .dev-1,
+  .dev-2,
+  .dev-3 {
+    animation: slide-in 1s ease-out;
+  }
+  
+  .dev-1 img,
+  .dev-2 img,
+  .dev-3 img,
+  .dev-1 h5,
+  .dev-2 h5,
+  .dev-3 h5,
+  .dev-1 .social,
+  .dev-2 .social,
+  .dev-3 .social {
+    animation: slide-in 1s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .animate-me {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

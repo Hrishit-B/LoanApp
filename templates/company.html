@@ -9,23 +9,24 @@
     <title>Loan | Company</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm pt-5 pb-3 sticky-top" style="background: #1D63FF;">
-        <div class="container">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="../templates/company.html" class="nav-link text-white" style="font-weight: 500;">Company</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="../templates/faq.html" class="nav-link text-white" style="font-weight: 500;">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <a href="../templates/index.html" class="navbar-brand text-white" style="margin-right: 445px;">Loan</a>
-            <a href="./log.html" class="btn comBTN1 mx-3">Login</a>
-            <a href="./createAcc.html" class="btn comBTN2">Get Started</a>
+  <nav class="navbar navbar-expand-sm pt-5 pb-3 sticky-top" style="background: #1D63FF;">
+    <div class="container">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../templates/company.html" class="nav-link text-white" style="font-weight: 500;">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../templates/faq.html" class="nav-link text-white" style="font-weight: 500;">FAQ</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+        <a href="../templates/index.html" class="navbar-brand text-white" style="margin-right: 445px;">Loan</a>
+        <a href="./log.html" class="btn comBTN1 mx-3">Login</a>
+        <a href="./createAcc.html" class="btn comBTN2">Get Started</a>
+    </div>
+</nav>
+
 
     <div>
         <div class="display-3 text-center mt-5">
@@ -54,10 +55,11 @@
     </div>
 
     <div class="devs" style="padding: 140px;">
-        <div class="dev-head">
-            <h6 style="color: #1D63FF;" class="mb-3 text-center">OUR PEOPLE</h6>
-            <h2 style="font-weight: 600; font-size: 40x;" class="mb-5 text-center">Meet the Developers</h2>
-        </div>
+      <div class="dev-head animate-me">
+        <h6 style="color: #1D63FF;" class="mb-3 text-center">OUR PEOPLE</h6>
+        <h2 style="font-weight: 600; font-size: 40x;" class="mb-5 text-center">Meet the Developers</h2>
+      </div>
+      
         <div class="dev-1 row">
           <div class="col">
             <h5 style="position: relative; top: 25px;">Hrishit Bhattacharya</h5>
@@ -104,5 +106,21 @@
       </div>
     </div>  
     <script src="../JS/indexApp.js"></script>
+    <script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animated');
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+const elements = document.querySelectorAll('.animate-me');
+elements.forEach(el => {
+  observer.observe(el);
+});
+</script>
+
 </body>
 </html>
