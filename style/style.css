@@ -1,3 +1,6 @@
+.body{
+    background-color: #f5f5f5;
+}
 .indexBTN1{
     border-radius: 19px;
     border: 2px solid #1D63FF;
@@ -180,7 +183,6 @@
     background-attachment: fixed;
     min-height: 810px;
 }
-
 input[type=text]{
     background: #FBF5F5;
 }
@@ -230,4 +232,74 @@ input[type=password]{
     color: #FFCE32;
     border: #FFCE32 solid 2px;
     background: #1D63FF;
+}
+.personal{
+    color: #FFCE32 ;
+    background-color: #1D63FF;
+}
+.personal:hover{
+    color:  #1D63FF;
+    border: 2px solid #1D63FF;
+    background-color:#FFCE32;
+}
+.headings{
+    margin-left: 8vw;
+    margin-top: 10vh;
+}
+.txt{
+    font-size: 80px;
+}
+#txt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-md-4 {
+    transition: transform 0.3s ease-in-out;
+    background-color:aliceblue;
+}
+
+.col-md-4:hover {
+    transform: translate(0, -10px);
+}
+.img-bg{
+    width:35vw;
+
+}
+.fade-image {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+.fade-in {
+    opacity: 1;
+}
+.loan{
+    width:80%;
+}
+.option{
+    width:40%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.card{
+    background: rgb(251,251,251);
+background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(215,215,231,1) 18%, rgba(12,204,244,1) 100%);
+}
+.card-title{
+    color: #1D63FF;
+}
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.gapper{
+    height: 20vh;
+}
+.apply{
+    background: rgb(251,251,251);
+    background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(215,215,231,1) 18%, rgba(12,204,244,1) 100%);
 }
