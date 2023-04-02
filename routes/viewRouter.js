@@ -8,14 +8,18 @@ router.get('/login', viewController.getLoginInfo);
 
 router.get('/company', viewController.getCompanyInfo);
 
-router.get('/Frequently-Asked-Questions', viewController.getFAQ);
+router.get('/faq', viewController.getFAQ);
 
-router.get('/create-account', viewController.getCreateAccount);
+router.get('/createAcc', viewController.getCreateAccount);
 
 router.get('/user', viewController.getUser);
 
 router.get('/results', viewController.getResults);
 
 router.get('/apply-now', viewController.uploadInfo);
+
+router.get('/faq', (req, res) => {
+    res.render('faq');
+})
 
 module.exports = router;
