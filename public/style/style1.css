@@ -123,11 +123,14 @@ color: #000000;
     overflow-y: scroll;
 }
 
+<<<<<<< Updated upstream
 #existing{
     position: absolute;
     align-items: center;
     top: 30px;
 }
+=======
+>>>>>>> Stashed changes
 #one-card{
     display:flex;
     position: absolute;
@@ -226,8 +229,13 @@ color: #000000;
     position: absolute;
     width: 19px;
     height: 18px;
+<<<<<<< Updated upstream
     left: 235px;
     top: 6px;
+=======
+    left: 215px;
+    top: 26px;
+>>>>>>> Stashed changes
     border-radius: 50%;
     background: #008000;
 }
