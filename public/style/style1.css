@@ -76,7 +76,7 @@
     color: #000000;
     }
     
-    #btn{
+    #btnApply{
         position: absolute;
         top:300px;
         left:400px;
@@ -238,4 +238,11 @@
         background-color: #1D63FF;
         color: #FFCE32;
         border: 2px solid #FFCE32;
+    }
+
+    #existing{
+        position: absolute;
+        top: 30px;
+        align-items: center;
+        left: 90px;
     }
