@@ -12,14 +12,10 @@ router.get('/faq', viewController.getFAQ);
 
 router.get('/createAcc', viewController.getCreateAccount);
 
-router.get('/user', viewController.getUser);
-
 router.get('/results', viewController.getResults);
 
 router.get('/apply-now', viewController.uploadInfo);
 
-router.get('/faq', (req, res) => {
-    res.render('faq');
-})
+router.get('/user', viewController.userPage);
 
 module.exports = router;
