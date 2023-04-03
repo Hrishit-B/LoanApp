@@ -55,3 +55,10 @@ exports.uploadInfo = catchAysnc(async (req, res, next) => {
         .status(200)
         .render('upload');
 });
+
+exports.userPage = catchAysnc(async (req, res, next) => {
+    console.log('request recieved');
+    res
+        .status(200)
+        .render('user');
+});

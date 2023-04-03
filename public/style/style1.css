@@ -4,8 +4,7 @@
     height: 133px;
     left: 0px;
     top: 0px;
-    background: #1D63FF;
-    }
+}
     
     .contact{
     position: absolute;
@@ -37,7 +36,7 @@
     width: 270px;
     height: 90px;
     left: 0px;
-    top: 133px;
+    top: 105px;
     }
     
     #PName{
@@ -118,7 +117,7 @@
         border-left: 2px solid yellow;
         height: 100vh;
         right: 0px;
-        top: 133px;
+        top: 105px;
         width: 350px;
         overflow-y: scroll;
     }
@@ -222,7 +221,21 @@
         width: 19px;
         height: 18px;
         left: 215px;
-        top: 26px;
+        top: 38px;
         border-radius: 50%;
         background: #008000;
+    }
+
+    .comBTN1{
+        border-radius: 19px;
+        border: 2px solid #1D63FF;
+        color: #1D63FF;
+        background-color: #FFCE32;
+        font-weight: 500;
+    }
+
+    .comBTN1:hover{
+        background-color: #1D63FF;
+        color: #FFCE32;
+        border: 2px solid #FFCE32;
     }
