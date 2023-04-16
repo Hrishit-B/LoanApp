@@ -1,0 +1,267 @@
+.indexBTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: #FFCE32;
+    font-weight: 500;
+}
+
+.indexBTN2{
+    border-radius: 19px;
+    background-color: #FFCE32;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    font-weight: 500;
+}
+
+.indexBTN1:hover{
+    background-color: #1D63FF;
+    color: white;
+}
+
+.indexBTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: white;
+    background-color: #1D63FF;
+}
+
+.comBTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: #FFCE32;
+    font-weight: 500;
+}
+
+.comBTN2{
+    border-radius: 19px;
+    background-color: #FFCE32;
+    border: 2px solid #FFCE32;
+    color: #1D63FF;
+    font-weight: 500;
+}
+
+.comBTN1:hover{
+    background-color: #1D63FF;
+    color: #FFCE32;
+    border: 2px solid #FFCE32;
+}
+
+.comBTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #FFCE32;
+    color: #FFCE32;
+    background-color: #1D63FF;
+}
+
+.BTN1{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: white;
+    font-weight: 500;
+}
+
+.BTN2{
+    border-radius: 19px;
+    background-color: #1D63FF;
+    border: 2px solid #1D63FF;
+    color: white;
+    font-weight: 500;
+}
+
+.BTN1:hover{
+    background-color: #1D63FF;
+    color: white;
+}
+
+.BTN2:hover{
+    border-radius: 19px;
+    border: 2px solid #1D63FF;
+    color: #1D63FF;
+    background-color: white;
+}
+
+
+.topmost{
+    background: #FFCE32;
+}
+
+.midbox{
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 5%;
+}
+
+#mid-link{
+    text-decoration: none;
+    color: white;
+}
+
+#mid-list{
+    font-size: larger;
+    padding-top: 35px;
+    padding-left: 55px;
+    background: #1D63FF;
+    list-style: none;
+    height: 150px;
+    width: 150px;
+    border: 1px, solid, #1D63FF;
+    border-radius: 70%;
+}
+
+#intro-img{
+    border-radius: 100px;
+    height: 375px;
+    margin-left: 5%;
+}
+
+.mid{
+    padding: 80px;
+}
+
+.box1{
+    width: 35%;
+    background: #1D63FF;
+    color: white;
+}
+
+.two-a{
+    background: #D8E7F1;
+    height: 50%;
+    width: 500px;
+}
+
+.three-a{
+    height: 50%;
+    width: 550px;
+    background: #EFE3E3;
+}
+
+.three-b{
+    background: #EFF9FA;
+    height: 50%;
+}
+
+#clock{
+    position: relative;
+
+}
+
+#secure{
+    position: relative;
+}
+
+.clock-text{
+    padding-top: 115px;
+    padding-left: 55px;
+}
+
+.secure-text{
+    padding-top: 115px;
+    padding-left: 55px;
+}
+
+.clock-img{
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.secure-img{
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.img-container{
+    background: url(../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 810px;
+}
+
+input[type=text]{
+    background: #FBF5F5;
+}
+
+input[type=password]{
+    background: #FBF5F5;
+}
+
+.social{
+    position: relative;
+    top: 65px;
+}
+
+.dev-head{
+    width: 50%;
+    margin-left: 22.5%;
+}
+
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.f1, .f2, .f3 {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+#info1[style*="display: block"], #info2[style*="display: block"], #info3[style*="display: block"], #info4[style*="display: block"], #info5[style*="display: block"] {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the elements */
+  .dev-head h6,
+  .dev-head h2,
+  .dev-1,
+  .dev-2,
+  .dev-3 {
+    animation: slide-in 1s ease-out;
+  }
+  
+  .dev-1 img,
+  .dev-2 img,
+  .dev-3 img,
+  .dev-1 h5,
+  .dev-2 h5,
+  .dev-3 h5,
+  .dev-1 .social,
+  .dev-2 .social,
+  .dev-3 .social {
+    animation: slide-in 1s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .animate-me {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .animated {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

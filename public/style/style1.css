@@ -1,0 +1,248 @@
+.top-container{
+    position: absolute;
+    width: 1440px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+}
+    
+    .contact{
+    position: absolute;
+    width: 252px;
+    margin-right: 700px;
+    height: 45px;
+    top: 70px;
+    display: flex;
+    font-style: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    }
+    
+    .loan{
+        position: absolute;
+        width: 225px;
+        height: 36px;
+        left: 612px;
+        top: 54px;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .profileDetails{
+    position: absolute;
+    width: 270px;
+    height: 90px;
+    left: 0px;
+    top: 105px;
+    }
+    
+    #PName{
+        position:absolute;
+        left:10px;
+        font-size: 22px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    #PEmail{
+        position:absolute;
+        left: 10px;
+        top: 38px;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .profileDetails{
+    position:absolute;
+    left:0px;
+    }
+    
+    #para1{
+        position: absolute;
+    width: 730px;
+    height: 19px;
+    left: 145px;
+    top: 230px;
+    font-weight: 45;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    }
+    
+    #btnApply{
+        position: absolute;
+        top:300px;
+        left:400px;
+        width:14%;
+        background-color:#FFCE32;
+        border: none;
+        color: #1D63FF;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:50%;
+        border:1px solid #1D63FF;
+    }
+    
+     .existingLoans{
+    
+        position: absolute;
+        top: 0px;
+        bottom: 5px;
+        width: 100%;
+        height: 10%;
+        border-bottom: 1px solid black;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+     }
+    .Loans{
+        position: absolute;
+        display: flex;
+        border-left: 2px solid yellow;
+        height: 100vh;
+        right: 0px;
+        top: 105px;
+        width: 350px;
+        overflow-y: scroll;
+    }
+    
+    #one-card{
+        display:flex;
+        position: absolute;
+        top: 90px;
+        left: 15px;
+        right: 10px;
+        height: 25%;
+      
+    }
+    
+    .logo{
+        position: absolute;
+        align-items: center;
+        top:5px;
+        left: 5px;
+    }
+    
+    .bankName{
+        position: absolute;
+        align-items: center;
+        left: 100px;
+    }
+    
+    .PDue{
+        position: absolute;
+        top: 35px;
+        left: 100px;
+    }
+    
+    .PDL{
+        position: absolute;
+        top: 70px;
+        left:100px;
+    }
+    
+    .year{
+        position: absolute;
+        top: 85px;
+        left: 185px;
+    }
+    
+    .chkProgressBtn{
+        position: absolute;
+        bottom: 8px;
+        left:60px;
+        background-color:#FFCE32;
+        color: #1D63FF;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:50%;
+        border:1px solid #1D63FF;
+        width:60%;
+        height: 25%;
+    
+    }
+    
+    #second-card{
+        display:flex;
+        position: absolute;
+        top: 300px;
+        left: 15px;
+        right: 10px;
+        height: 25%;
+    }
+    
+    #third-card{
+        display:flex;
+        position: absolute;
+        top: 510px;
+        left: 15px;
+        right: 10px;
+        height: 25%;
+    }
+    
+    #round{
+        border-radius: 25px;
+      width: 79px;
+      height: 71px;
+    }
+    
+    #fourth-card{
+        display:flex;
+        position: absolute;
+        top: 720px;
+        left: 15px;
+        right: 10px;
+        height: 25%;
+    }
+    
+    #circle{
+        position: absolute;
+        width: 19px;
+        height: 18px;
+        left: 215px;
+        top: 38px;
+        border-radius: 50%;
+        background: #008000;
+    }
+
+    .comBTN1{
+        border-radius: 19px;
+        border: 2px solid #1D63FF;
+        color: #1D63FF;
+        background-color: #FFCE32;
+        font-weight: 500;
+    }
+
+    .comBTN1:hover{
+        background-color: #1D63FF;
+        color: #FFCE32;
+        border: 2px solid #FFCE32;
+    }
+
+    #existing{
+        position: absolute;
+        top: 30px;
+        align-items: center;
+        left: 90px;
+    }
