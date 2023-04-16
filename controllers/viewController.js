@@ -62,3 +62,9 @@ exports.userPage = catchAysnc(async (req, res, next) => {
         .status(200)
         .render('user');
 });
+
+exports.succesPage = catchAysnc(async(req, res, next) => {
+    res
+        .status(200)
+        .render('success')
+});

@@ -18,4 +18,6 @@ router.get('/apply-now', viewController.uploadInfo);
 
 router.get('/user', viewController.userPage);
 
+router.get('/success', viewController.succesPage);
+
 module.exports = router;

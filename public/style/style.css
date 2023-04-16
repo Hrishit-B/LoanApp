@@ -265,3 +265,15 @@ input[type=password]{
     transform: translateY(0);
   }
   
+  .res-apply{
+    color: #1D63FF;
+    border: #1D63FF solid 2px;
+    border-radius: 20px;
+    background: #FFCE32;
+}
+
+.res-apply:hover{
+    color: #FFCE32;
+    border: #FFCE32 solid 2px;
+    background: #1D63FF;
+}
